@@ -1,0 +1,14 @@
+[
+  {"id":1,"codigo":"MP-001","material":"Chapa de aço","categoria":"Metais","unidade":"kg","quantidade":150,"estoqueMinimo":200},
+  {"id":2,"codigo":"MP-002","material":"Bobina de alumínio","categoria":"Metais","unidade":"kg","quantidade":480,"estoqueMinimo":300},
+  {"id":3,"codigo":"MP-003","material":"Barra de cobre","categoria":"Metais","unidade":"kg","quantidade":80,"estoqueMinimo":120},
+  {"id":4,"codigo":"MP-004","material":"Tubo de aço inox","categoria":"Metais","unidade":"m","quantidade":75,"estoqueMinimo":60},
+  {"id":5,"codigo":"MP-005","material":"Resina ABS","categoria":"Plásticos","unidade":"kg","quantidade":95,"estoqueMinimo":180},
+  {"id":6,"codigo":"MP-006","material":"Polietileno","categoria":"Plásticos","unidade":"kg","quantidade":320,"estoqueMinimo":250},
+  {"id":7,"codigo":"MP-007","material":"PVC granulado","categoria":"Plásticos","unidade":"kg","quantidade":0,"estoqueMinimo":100},
+  {"id":8,"codigo":"MP-008","material":"Borracha nitrílica","categoria":"Polímeros","unidade":"kg","quantidade":210,"estoqueMinimo":180},
+  {"id":9,"codigo":"MP-009","material":"Silicone industrial","categoria":"Polímeros","unidade":"kg","quantidade":120,"estoqueMinimo":100},
+  {"id":10,"codigo":"MP-010","material":"Fibra de vidro","categoria":"Compósitos","unidade":"kg","quantidade":140,"estoqueMinimo":120},
+  {"id":11,"codigo":"MP-011","material":"Manta de carbono","categoria":"Compósitos","unidade":"m²","quantidade":0,"estoqueMinimo":50},
+  {"id":12,"codigo":"MP-012","material":"Resina epóxi","categoria":"Compósitos","unidade":"kg","quantidade":275,"estoqueMinimo":200}
+]

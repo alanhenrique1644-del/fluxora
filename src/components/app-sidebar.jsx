@@ -1,0 +1,6 @@
+'use client';
+import { NavMain } from '@/components/nav-main';
+import { NavSecondary } from '@/components/nav-secondary';
+import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/components/fluxora/ui/sidebar';
+import { LayoutDashboardIcon, ListIcon, ChartBarIcon, HomeIcon, Layers3 } from 'lucide-react';
+export function AppSidebar({ onCreate, ...props }) { return <Sidebar collapsible="offcanvas" {...props}><SidebarHeader><SidebarMenu><SidebarMenuItem><SidebarMenuButton asChild className="p-1.5!"><a href="/"><Layers3 className="size-5!"/><span className="text-base font-semibold">Fluxora</span></a></SidebarMenuButton></SidebarMenuItem></SidebarMenu></SidebarHeader><SidebarContent><NavMain onCreate={onCreate} items={[{ title: 'Visão geral', url: '#visao-geral', icon: <LayoutDashboardIcon /> }, { title: 'Matérias-primas', url: '#materiais', icon: <ListIcon /> }, { title: 'Indicadores', url: '#graficos', icon: <ChartBarIcon /> }]}/><NavSecondary className="mt-auto" items={[{ title: 'Voltar ao site', url: '/', icon: <HomeIcon /> }]}/></SidebarContent><SidebarFooter><div className="rounded-lg bg-primary/5 p-3 text-sm text-muted-foreground"><strong className="block text-foreground">Ambiente demonstrativo</strong>Dados fictícios. Não exige login.</div></SidebarFooter></Sidebar>; }

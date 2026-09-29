@@ -1,0 +1,23 @@
+body:has(.fluxora-theme), .fluxora-theme {
+ --background:#ffffff; --foreground:#162e37;
+ --card:#ffffff; --card-foreground:#162e37;
+ --popover:#ffffff; --popover-foreground:#162e37;
+ --primary:#086b78; --primary-foreground:#ffffff;
+ --secondary:#e9f3f5; --secondary-foreground:#164d58;
+ --muted:#f1f6f7; --muted-foreground:#526b74;
+ --accent:#e2f0f2; --accent-foreground:#164d58;
+ --border:#dce6e9; --input:#cadade; --ring:#168696;
+ --sidebar:#f3f8f9; --sidebar-foreground:#162e37;
+ --sidebar-primary:#086b78; --sidebar-primary-foreground:#ffffff;
+ --sidebar-accent:#e2f0f2; --sidebar-accent-foreground:#164d58;
+ --sidebar-border:#dce6e9; --sidebar-ring:#168696;
+ color:var(--foreground); background:var(--background);
+}
+.fluxora-theme { min-height:100vh; }
+.fluxora-theme section,.fluxora-theme main {scroll-margin-top:6rem}
+.fluxora-theme a:focus-visible {outline:2px solid var(--ring);outline-offset:4px}
+.fluxora-reveal {animation:fluxora-enter .8s ease both}
+.fluxora-lift {transition:transform .2s ease,box-shadow .2s ease}
+.fluxora-lift:hover {transform:translateY(-4px);box-shadow:0 12px 24px #162e3710}
+@keyframes fluxora-enter {from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.fluxora-theme *,.fluxora-theme *::before,.fluxora-theme *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
